@@ -1,0 +1,32 @@
+ul.a {
+    list-style-type: circle;
+}       
+ul.b {
+    list-style: katakana;
+}        
+ul.c {
+    list-style: hebrew;
+}   
+ul.d {
+    list-style: hiragana;
+}                         
+ul.e {
+    list-style: square;
+}                                                                                              
+.a:hover{
+    transition: 0.5s;
+    transform: translate(250);
+    color: rgb(182, 123, 238);
+}
+.b:hover{
+    color: rgb(238, 53, 53);
+}
+.c:hover{
+    color: rgb(39, 237, 32);
+}
+.d:hover{
+    color: rgb(240, 77, 221);
+}
+.e:hover{
+    color: rgb(51, 61, 255);
+}
