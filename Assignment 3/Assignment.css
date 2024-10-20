@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #fff;
 }
 
 .header {
@@ -12,89 +12,238 @@ body {
     font-weight: bold;
 }
 
-.container {
+.body1 {
     display: flex;
     justify-content: center;
-    height: 900px;
-    background-color: #f9f9f9;
+    background-color: #ababab;
     padding: 20px;
+    height: 800px;
 }
-.content {
-    width: 200px;
-    height: 550px;
 
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-}
 .first {
     position: relative;
     height: 650px;
-    margin-right: 40%;
     margin-top: 20px;
 }
-
 .text-block {
     position: absolute;
     top: 400px;
     left: -100px;
     background-color: white;
-    padding: 20px;
+    padding: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 15;
+    text-align: left;
 }
-
 .text-block h1 {
-    margin: 0;
-    line-height: 1.5;
+    line-height: 1.2;
+    font-style: bold;
 }
 
 .text-block p {
     font-size: 14px;
     color: gray;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 .sofa-area img {
     width:700px;
     height: 500px;
-    border-radius: 5px;}
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+}
+.content {
+    width: 200px;
+    height: 650px; 
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: -23px;
+    left: 600px;
+    z-index: 1;
+}
+.body2 {
+    background-color: #f5f5f5;
+    height: 700px;
+}
+.container {
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+}
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .header1{
+.text1 {
+    width: 50%;
+    margin-top: 45px;
+}
+.text2 {
+    width: 50%;
+    text-align: right;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.intro-text {
+    font-size: 1.2em;
+    color: #333;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.picture {
+    display: flex; 
+    z-index: 1;
+}
+.item1 {
+    width: 30%;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.item2 {
+    width: 30%;
+    margin-top: 16%;
+}
+.item3 {
+    width: 30%;
+    margin-top: 24%;
+}
+.item1 img {
+    height: 350px;
+    width: 350px;
+}
+.item2 img {
+    height: 350px;
+    width: 350px;
+}
+.item3 img {
+    height: 350px;
+    width: 350px;
+}
+.up {
+    z-index: 5;
+    position: absolute;
+    left: 67%;
+}
+.down {
+    z-index: 5;
+    position: absolute;
+    left: 7%;
+    bottom: -160%;
+}
+
+.body3 {
+    background-color: #ababab;
+    height: 1700px;
+    
+}
+.text3 {
+    padding-top: 25%;
+    text-align: center;
+}
+.button1 {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 10px 20px;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.image1 img{
+    margin-left: 18%;
+    margin-top: 2%;
+    height: 650px;
+}
+.text4 {
+    padding-top: 10%;
+    margin-left: 20%;
+    text-align: left;
+}
+.contain {
+    width: 600px;
+    height: 200px; 
+    background-color: rgb(186, 186, 186);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 40%;
+    margin-top: -18%;
+    z-index: 1;
+}
+.picturee {
+    display: flex;
+}
+.image2 {
+    width: 30%;
+    z-index: 2;
+    margin: 7%;
+    margin-right: 3%;
+    margin-left: 20%;
+}
+.image2 img {
+    width: 400px;
+    height: 400px;
+}
+.image3 {
+    width: 90%;
+    z-index: 2;
+    margin-top: 7%;
+}
+.image3 img {
+    width: 400px;
+    height: 400px;
+}
+.contain {
+    background-color: #c3c3c3;
+    z-index: 1;
+    position: absolute;
+    bottom: -3030px;
+    height: 300px;
+}
+.third img {
+    width: 100%;
+}
+
+.header1{
     background-color: #f1f1f1;
     padding: 20px;
     text-align: center;
   }
   
-  .container1 {
+.container1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
   }
   
-  .card {
+.card {
     width: 300px;
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
   
-  .card img {
+.card img {
     width: 100%;
     height: auto;
   }
   
-  .card-title {
+.card-title {
     padding: 10px;
     font-size: 18px;
     color: #333;
   }
 
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-bo;
