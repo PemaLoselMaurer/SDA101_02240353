@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #e3e3e3;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 900px;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+.content {
+    width: 200px;
+    height: 550px;
+
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.first {
+    position: relative;
+    height: 650px;
+    margin-right: 40%;
+    margin-top: 20px;
+}
+
+.text-block {
+    position: absolute;
+    top: 400px;
+    left: -100px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-block h1 {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.text-block p {
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
+.sofa-area img {
+    width:700px;
+    height: 500px;
+    border-radius: 5px;}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header1{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-title {
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-bo;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.contact-form {
+    max-width: 40%;
+}
+
+.contact-form h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.map {
+    max-width: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
