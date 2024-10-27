@@ -72,9 +72,9 @@ ul li a:hover{
 
  }
 .text1 ul {
-    text-align: center;
+    text-align: left;
     line-height: 40px;
-    margin-right: 800px;
+    margin-right: 750px;
     padding-top: 60px;
  }
  .text1 h4{
@@ -98,5 +98,6 @@ ul li a:hover{
     margin-left:1030px ;
     font-size: 40px;
     padding-top: 60px;
-    line-height: 60px;
+    line-height: 50px;
+    text-align: center;
 }
