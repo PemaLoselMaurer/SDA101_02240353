@@ -63,61 +63,13 @@ ul li a:hover{
     width: 66%;
     margin-left: 7%;
     margin-top: 3%;
-}
-.text1 h1{
-    color: #ffffff;
-    font-size: 35px;
-    margin-top: 2%;
-}
-.text1 h2{
-    color: #0075FF;
-    font-size: 40px;
-    margin-top: 2%;
+
 }
 .text1 h3{
     color: #0075FF;
     font-size: 30px;
 }
-.text1 p{
-    color: #ffffff;
-    font-size: 25px;
-    margin-top: 2%;
-}
-.text1 h4{
-    color: #ffffff;
-    font-size: 30px;
-    line-height: 50px;
-    margin-left: 5%;
-    margin-top: 1%;
-}
-
-.text1 img{
-    height: 50px;
-    width: 45px;
-    padding-top: 2%;
-}
 
 .img1{
     width: 45%;
-}
-.container ul li {
-    font-size: 20px;
-}
-.container ul li img{
-    height: 70px;
-    width: 80px;
-    padding-top: 2%;
-}
-.image{
-    gap: 6%;
-    float: left;
-    margin-left: 9%;
-}
-.text2 li {
-    font-size: 27px;
-    color:#ffffff;
-    margin-top: 25px;
-    margin-right: 1110px;
-    display: flex;
-    gap: 36%;
 }
