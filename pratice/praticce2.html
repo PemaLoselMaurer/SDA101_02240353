@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <style>
+        user-profile {
+            display: block;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <user-profile name="Pema Losel Maurer" role="Software student"></user-profile>
+
+    <script>
+        class UserProfile extends HTMLElement {
+            constructor() {
+                super();
+                this.attachShadow({ mode: 'open' });
+
+                // Create the template
+                const template = document.createElement('template');
+                template.innerHTML = `
+                    <style>
+                        .card {
+                            border: 1px solid #ccc;
+                            padding: 20px;
+                            border-radius: 5px;
+                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                            max-width: 300px;
+                            font-family: Arial, sans-serif;
+                        }
+                        .name {
+                            font-size: 1.5em;
+                            margin-bottom: 10px;
+                        }
+                        .role {
+                            font-size: 1em;
+                            color: #555;
+                        }
+                    </style>
+                    <div class="card">
+                        <div class="name"></div>
+                        <div class="role"></div>
+                    </div>
+                `;
+
+                // Clone and attach the template
+                this.shadowRoot.appendChild(template.content.cloneNode(true));
+
+                // Set the values
+                this.shadowRoot.querySelector('.name').textContent = this.getAttribute('name');
+                this.shadowRoot.querySelector('.role').textContent = this.getAttribute('role');
+            }
+        }
+
+        customElements.define('user-profile', UserProfile);
+    </script>
+</body>
+</html>
+
