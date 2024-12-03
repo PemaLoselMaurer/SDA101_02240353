@@ -88,3 +88,136 @@ ul li a:hover{
 .img1{
     width: 45%;
 }
+
+@media (max-width: 1024px) {
+    .navbar {
+        height: 50px;
+    }
+
+    .title {
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    .menu {
+        width: 500px;
+    }
+
+    ul li {
+        font-size: medium;
+        margin-right: 40px;
+    }
+
+    .text1 h1 {
+        font-size: 28px;
+        margin: 0 auto;  
+    }
+
+    .text1 p {
+        font-size: 22px;
+        margin: 0 auto;  
+        text-align: center; 
+        width: 90%;  
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img1 img {
+        width: 80%;  
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        height: 50px;
+        padding: 0 10px;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu ul {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .text1 h1 {
+        font-size: 24px;
+        margin: 0 auto;  
+    }
+
+    .text1 p {
+        font-size: 20px;
+        text-align: center; 
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 90%;  
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img1 img {
+        width: 80%;  
+        height: auto;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .navbar {
+        height: 45px;
+        padding: 0 5px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .menu ul {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    ul li {
+        font-size: medium;
+        margin-right: 20px;
+    }
+
+    .text1 h1 {
+        font-size: 20px;
+        margin: 0 auto; 
+    }
+
+    .text1 p {
+        font-size: 18px;
+        text-align: center; 
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;  
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img1 img {
+        width: 100%;  
+        height: auto;
+    }
+}
+
+

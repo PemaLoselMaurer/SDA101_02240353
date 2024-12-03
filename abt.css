@@ -8,10 +8,13 @@
     height: 60px;
     background-color:#092945}
 
-.main{
-    background-image: url('lakeside-night.png');
-    background-size: cover;
-    height: 770px;}
+.main {
+        background-image: url('lakeside-night.png');
+        background-size: cover;
+        background-position: center;
+        height: auto; /* Remove fixed height */
+        min-height: 100vh; /* Ensure it covers full screen */
+}    
 
 .title{
     color: #0075FF;
@@ -47,7 +50,7 @@ ul li a{
     transition: 0.4s ease-in-out;}
 ul li a:hover{
        background-color:#00459E;
-       transform: scale(10);
+       transform: scale(1.1);
 }
 
 .text1{
@@ -100,4 +103,34 @@ ul li a:hover{
     padding-top: 60px;
     line-height: 50px;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .text1 h1,
+    .text1 h4 {
+        font-size: 24px; /* Scale down font size */
+    }
+
+    .text1 ul {
+        font-size: 16px; /* Smaller font size for lists */
+    }
+
+    .lan p {
+        font-size: 18px; /* Scale down font size for smaller screens */
+    }
+}
+@media (max-width: 480px) {
+    .text1 h1,
+    .text1 h4 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .text1 ul {
+        font-size: 14px; /* Even smaller font for mobile */
+    }
+
+    .lan p {
+        font-size: 16px; /* Scale down further */
+    }
 }

@@ -1,61 +1,68 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;}
+    scroll-behavior: smooth;
+}
 
-.navbar{
+.navbar {
     height: 60px;
-    background-color:#092945}
+    background-color: #092945;
+}
 
-.main{
+.main {
     background-image: url('lakeside-night.png');
     background-size: cover;
-    height: 770px;}
+    height: 770px;
+}
 
-.title{
+.title {
     color: #0075FF;
     width: 300px;
     height: 25px;
     margin-left: 3%;
     padding-top: 16px;
     font-size: 25px;
-} 
-.menu{
-    width: 600px; 
-    float: right;}
+}
 
-ul{
+.menu {
+    width: 600px;
+    float: right;
+}
+
+ul {
     list-style: none;
     float: right;
     display: flex;
     align-items: center;
     margin-right: 3%;
-
 }
-ul li{
+
+ul li {
     margin-top: -7px;
     margin-right: 60px;
     font-family: sans-serif;
     font-size: larger;
-
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
-    transition: 0.4s ease-in-out;}
-ul li a:hover{
-       background-color:#00459E;
-       transform: scale(10);
+    transition: 0.4s ease-in-out;
 }
 
-.text1{
+ul li a:hover {
+    background-color: #00459E;
+    transform: scale(1.2); /* Adjusted scale for smoother hover effect */
+}
+
+.text1 {
     width: 100%;
-
 }
-.text1 h1{
-    color:#FF905D;
+
+.text1 h1 {
+    color: #FF905D;
     font-size: 30px;
     font-family: cursive;
     text-align: center;
@@ -66,10 +73,49 @@ ul li a:hover{
     margin-left: 15%;
 }
 
-.points{
+.points {
     color: #ffffff;
     font-size: 25px;
     padding-top: 20px;
-    float: left;
     margin-left: 10%;
+    text-align: left; /* Added for better text alignment */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        height: 50px;
+    }
+
+    .title {
+        font-size: 20px;
+        margin-left: 10%;
+    }
+
+    .menu {
+        width: 100%;
+        float: none;
+    }
+
+    ul {
+        display: block;
+        margin-right: 0;
+    }
+
+    ul li {
+        margin-right: 20px;
+        font-size: medium;
+    }
+
+    .text1 h1 {
+        font-size: 24px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .points {
+        font-size: 20px;
+        margin-left: 5%;
+        text-align: left;
+    }
 }

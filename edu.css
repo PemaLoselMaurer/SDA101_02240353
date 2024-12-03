@@ -100,3 +100,116 @@ ul li a:hover{
     padding-top: 60px;
     line-height: 60px;
 }
+
+@media (max-width: 1024px) {
+    .navbar {
+        height: 50px;
+    }
+
+    .title {
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    .menu {
+        width: 500px;
+    }
+
+    ul li {
+        font-size: medium;
+        margin-right: 40px;
+    }
+
+    .text1 h1 {
+        font-size: 28px;
+    }
+
+    .text1 ul li b {
+        font-size: 22px;
+    }
+
+    .lan p {
+        font-size: 30px;
+    }
+
+    .text1 h4 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        height: 50px;
+        padding: 0 10px;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu ul {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .text1 h1 {
+        font-size: 24px;
+    }
+
+    .text1 h4 {
+        font-size: 24px;
+        margin-left: 50%;
+    }
+
+    .text1 ul li b {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .lan p {
+        font-size: 24px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        height: 45px;
+        padding: 0 5px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .menu ul {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    ul li {
+        font-size: medium;
+        margin-right: 20px;
+    }
+
+    .text1 h1 {
+        font-size: 20px;
+    }
+
+    .text1 h4 {
+        font-size: 20px;
+        margin-left: 50%;
+    }
+
+    .text1 ul li b {
+        font-size: 16px;
+    }
+
+    .lan p {
+        font-size: 20px;
+        margin-left: 10px;
+        line-height: 35px;
+    }
+}
